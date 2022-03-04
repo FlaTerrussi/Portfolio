@@ -1,0 +1,93 @@
+
+@media (max-width: 840px) {
+
+    /* NAVBAR  */
+
+    .logo {
+        display: none;
+    }
+
+    .menu {
+        visibility: visible;
+        cursor: pointer;
+    }
+
+    .nav {
+        position: relative;
+    }
+
+    .nav-links {
+        display: table;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        padding: 10px 9vw;
+        background: var(--color-white);
+        width: 100%;
+        line-height: 30px;
+        transform: translateX(-100%);
+        transition: all .3s;
+        
+    }
+
+    .nav-scroll {
+        transform: translateX(0);
+       
+    }
+
+    /* HERO */
+
+    .data-container {
+        top: 30%;
+    }
+
+
+    /* SERVICES */
+
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+
+    }
+
+    .services {
+        height: 200px;
+        
+    }
+
+    /* ABOUT */
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skillset {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* PROJECTS */
+
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .full-card {
+        width: 100%;
+    }
+
+    /* CONTACT */
+
+    .form {
+        width: 100%;
+    }
+
+    /* FOOTER */
+
+    .footer-down {
+        padding: 0 20px;
+    }
+}
